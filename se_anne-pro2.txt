@@ -1,9 +1,9 @@
 partial alphanumeric_keys
-xkb_symbols "swerty" {
+xkb_symbols "US_swe" {
 
     include "se(basic)"
 
-    name[Group1]="Sweden - Swerty";
+    name[Group1]="Sweden - US_swe";
 
     key <TLDE> {	[     grave,	asciitilde	]	};
     key <AE01> {	[	  1,	exclam 		]	};
