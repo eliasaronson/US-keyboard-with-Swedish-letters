@@ -30,7 +30,7 @@ US layout but with access to åäö by using ALT + ;, ALT + " and ALT + [.
 </variant>
 ```
 
-4. After the line "! variant" in the file /usr/share/X11/xkb/rules/evdev.lst add the following:
+4. After the line "! variant" in the file /usr/share/X11/skb/rules/evdev.lst *  add the following:
 
 ```
 US_swe		se: US (Swedish)
@@ -41,3 +41,5 @@ US_swe		se: US (Swedish)
 ```
 setxkbmap -layout se -variant US_swe
 ```
+
+* /usr/share/X11/skb/rules/evdev.lst on older systems
