@@ -53,7 +53,7 @@ git clone https://github.com/eliasaronson/US-keyboard-with-Swedish-letters.git &
 </variant>
 ```
 
-4. After the line "! variant" in the file /usr/share/X11/skb/rules/evdev.lst *  add the following:
+4. After the line "! variant" in the file /usr/share/X11/xkb/rules/evdev.lst *  add the following:
 
 ```
 US_swe		se: US (Swedish)
@@ -65,4 +65,6 @@ US_swe		se: US (Swedish)
 setxkbmap -layout se -variant US_swe
 ```
 
-* /usr/share/X11/skb/rules/evdev.lst on older systems
+## Notes
+* On some older systems the path to evdev.lst is /usr/share/X11/skb/rules/evdev.lst instead.
+* If you want to costumise the keys all mappings are set in key_map.txt.
