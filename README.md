@@ -1,10 +1,33 @@
 # US keyboard with Swedish letters
 
-US layout but with access to åäö by using ALT + ;, ALT + " and ALT + [.
+US layout but with access to åäö by using 'ALT + ;', 'ALT + "' and 'ALT + ['.
 
 ## Installation
+There are two installation methods, a manual and an automatic one which performs the same
+tasks as the manual steps. The install-script has been tested on Arch and Ubuntu, but I give no granties and takes no responsebility if something breaks.
+### Automatic
+0. Clone this repo.
+'''
+git clone https://github.com/eliasaronson/US-keyboard-with-Swedish-letters.git && US-keyboard-with-Swedish-letters
+'''
 
-1. Add the contents of se_anne-pro2.txt to the end of /usr/share/X11/xkb/symbols/se.
+1. Run the install-script. This changes keyboard system files and requires superuser privalage.
+'''
+./install.sh
+'''
+
+2. To activate the new layout run:
+```
+setxkbmap -layout se -variant US_swe
+```
+
+## Manual
+0. Clone this repo.
+'''
+git clone https://github.com/eliasaronson/US-keyboard-with-Swedish-letters.git && US-keyboard-with-Swedish-letters
+'''
+
+1. Add the contents of key_map.txt to the end of /usr/share/X11/xkb/symbols/se.
 
 2. Look up the following section in the file /usr/share/X11/xkb/rules/evdev.xml:
 
