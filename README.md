@@ -7,6 +7,7 @@ There are two installation methods, a manual and an automatic one which performs
 tasks as the manual steps. The install-script has been tested on Arch and Ubuntu, but I give no granties and takes no responsebility if something breaks.
 ### Automatic
 0. Clone this repo.
+
 '''
 git clone https://github.com/eliasaronson/US-keyboard-with-Swedish-letters.git && US-keyboard-with-Swedish-letters
 '''
@@ -23,6 +24,7 @@ setxkbmap -layout se -variant US_swe
 
 ## Manual
 0. Clone this repo.
+
 '''
 git clone https://github.com/eliasaronson/US-keyboard-with-Swedish-letters.git && US-keyboard-with-Swedish-letters
 '''
