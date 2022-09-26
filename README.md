@@ -8,14 +8,14 @@ tasks as the manual steps. The install-script has been tested on Arch and Ubuntu
 ### Automatic
 0. Clone this repo.
 
-'''
+```
 git clone https://github.com/eliasaronson/US-keyboard-with-Swedish-letters.git && US-keyboard-with-Swedish-letters
-'''
+```
 
 1. Run the install-script. This changes keyboard system files and requires superuser privalage.
-'''
+```
 ./install.sh
-'''
+```
 
 2. To activate the new layout run:
 ```
@@ -24,10 +24,9 @@ setxkbmap -layout se -variant US_swe
 
 ## Manual
 0. Clone this repo.
-
-'''
+```
 git clone https://github.com/eliasaronson/US-keyboard-with-Swedish-letters.git && US-keyboard-with-Swedish-letters
-'''
+```
 
 1. Add the contents of key_map.txt to the end of /usr/share/X11/xkb/symbols/se.
 
