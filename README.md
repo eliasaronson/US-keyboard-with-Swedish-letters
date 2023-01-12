@@ -4,7 +4,7 @@ US layout but with access to åäö by using 'ALT + ;', 'ALT + "' and 'ALT + ['.
 
 ## Installation
 There are two installation methods, a manual and an automatic one which performs the same
-tasks as the manual steps. The install-script has been tested on Arch and Ubuntu, but I give no granties and takes no responsebility if something breaks.
+tasks as the manual steps. The install-script has been tested on Arch and Ubuntu, but I give no garanties and takes no responsibility if something breaks.
 ### Automatic
 0. Clone this repo.
 
@@ -12,12 +12,12 @@ tasks as the manual steps. The install-script has been tested on Arch and Ubuntu
 git clone https://github.com/eliasaronson/US-keyboard-with-Swedish-letters.git && US-keyboard-with-Swedish-letters
 ```
 
-1. Run the install-script. This changes keyboard system files and requires superuser privalage.
+1. Run the install-script. This changes keyboard system files and requires superuser privilege.
 ```
 ./install.sh
 ```
 
-2. To activate the new layout run:
+2. To activate the new layout, run:
 ```
 setxkbmap -layout se -variant US_swe
 ```
@@ -60,12 +60,12 @@ git clone https://github.com/eliasaronson/US-keyboard-with-Swedish-letters.git &
 US_swe		se: US (Swedish)
 ```
 
-5. To activate the new layout run:
+5. To activate the new layout, run:
 
 ```
 setxkbmap -layout se -variant US_swe
 ```
 
 ## Notes
-* On some older systems the path to evdev.lst is /usr/share/X11/skb/rules/evdev.lst instead.
-* If you want to costumise the keys all mappings are set in key_map.txt.
+* On some older systems, the path to evdev.lst is /usr/share/X11/skb/rules/evdev.lst instead.
+* If you want to customize the keys, all mappings are set in key_map.txt.
